@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leading Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: white;
+    }
+
+   #video {
+      width: 60%;
+    }
+
+
+    #register-button {
+      position: fixed;
+      bottom: 10px;
+      right: 20px;
+      width: 40%; 
+      padding: 24px 30px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #timer-container {
+      position: fixed;
+      bottom: 10px;
+      padding: 8px;
+       width: 50%;
+      background-color: #333;
+      color: white;
+      border-radius: 5px;
+      left: 10px;
+    }
+
+    .tit {
+      color: #4CAF50;
+    }
+
+    .ton {
+      justify-content: space-evenly;
+    }
+
+    .col {
+      padding: 20px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .reg {
+      padding: 15px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 60%;
+    }
+
+    .li {
+      padding: 20px 0px;
+    }
+
+    .ico {
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      color: white;
+    }
+
+    .lin {
+      background-color: transparent;
+      border-color: white;
+      font-size: 17px;
+      color: white;
+    }
+    .contae{
+        width: 85%;
+        background-color: black;
+        text-align: left;
+        color: white;
+        border-color: white;
+        border: white;
+        border-style: outset;
+        border-radius: 30px;
+        padding-left: 10px;
+    }
+    .conta{
+        width: 85%;
+        background-color: black;
+        text-align: left;
+        color: white;
+        border-color: white;
+        border: white;
+        border-style: outset;
+        border-radius: 30px;
+        padding-left: 10px;
+    }
+    .bo{
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+
+    @media screen and (max-width: 768px) {
+        #video {
+      width: 90%;
+    }
+    .reg {
+      padding: 15px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 80%;
+    }
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+    <br>
+    <h1>
+      Congrats! You're In!    </h1><br>
+    <h4 style="padding-left: 30px;padding-right: 30px;color: rgb(134, 139, 144);">
+      You Have <span class="tit">successfully reserved your seat</span> for the challenge. We will send you all the required details to your Email ID.
+    </h4>
+
+    <h2 style="padding-left: 30px;padding-right: 30px;color: rgb(172, 177, 182);">
+        The workshop will start on <span style="color: rgb(248, 248, 248);font-weight: bold;"> December 9th </span><span class="tit"> from 12:00 PM onwards</span>
+      </h2>
+
+
+         <!-- <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0"
+        allowfullscreen></iframe> -->
+    <br>
+    
+
+    <div>
+      <button class="reg" onclick="redirectPage()">
+        Join The Whatsapp Group
+      </button>
+    </div><br>
+    <div>
+      <h2>Things to do before <br> jumping into the <br> workshop</h2><br>
+      <h4 style="padding-left: 30px;padding-right: 30px;color: rgb(204, 212, 220);">Click on the link below to join the WhatsApp group.</h4>
+    
+    <div>
+        <button class="reg" onclick="redirectPage()">
+            Join The Whatsapp Group
+        </button>
+      </div><br>
+
+      <h4 style="padding-left: 30px;padding-right: 30px;color: rgb(204, 212, 220);">
+        You have also claimed your bonuses successfully. You will be granted access to the bonuses, after the workshop
+      </h4>
+<br><br><br>
+</center>
+
+  <script>
+    function redirectPage() {
+      // Replace "another-page.html" with the actual URL of your target page
+      window.location.href = "next.html";
+    }
+    </script>
+
+</body>
+
+</html>

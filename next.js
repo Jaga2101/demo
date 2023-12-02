@@ -12,7 +12,7 @@ function displayUserData() {
     const email = localStorage.getItem('email');
     const phone = localStorage.getItem('phone');
 
-    nameElement.innerText = `Name: ${name}`;
-    emailElement.innerText = `Email: ${email}`;
-    phoneElement.innerText = `Phone: ${phone}`;
+    nameElement.innerText = `${name}`;
+    emailElement.innerText = `${email}`;
+    phoneElement.innerText = `${phone}`;
 }
