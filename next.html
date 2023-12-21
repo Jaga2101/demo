@@ -7,201 +7,25 @@
   <title>Responsive Signup Page</title>
   <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: black;
-      /* display: flex; */
-      align-items: center;
-      justify-content: center;
-      height: 80%;
-      margin-top: 20px;
-    }
-
-    #signup-container {
-      background-color: #fff;
-      border-radius: 18px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-      width: 100%;
-      max-width: 300px;
-    }
-    
-    label{
-      text-align: left;
-    }
-
-    #myForm {
-      padding: 20px;
-      box-sizing: border-box;
-    }
-
-    h2 {
-      text-align: center;
-      color: #333;
-    }
-
-    input {
-      width: 100%;
-      padding: 10px;
-      margin: 8px 0;
-      box-sizing: border-box;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-    }
-
-    button {
-      width: 100%;
-      padding: 15px;
-      background-color: black;
-      color: white;
-      border: none;
-      border-radius: 15px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #45a049;
-    }
-    .conta{
-        width: 100%;
-        background-color: black;
-        text-align: left;
-        color: white;
-        border-radius: 30px;
-    }
-    .bo{
-        padding-left: 10px;
-        padding-right: 5px;
-    }
-    .con{
-        width: 100%;
-        background-color: transparent;
-        text-align: left;
-        border-radius: 30px;
-    }
-    .bon{
-        padding-left: 10px;
-        padding-right: 5px;
-    }
-    footer {
-  /* position: fixed; */
-  bottom: 0;
-  width: 90%;
-  background-color: white;
-  color: black;
-  text-align: center;
-  padding: 10px;
-
-}
-@media screen and (max-width:485px) {
-  body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: black;
-      /* display: flex; */
-      align-items: center;
-      justify-content: center;
-      height: 80%;
-      margin-top: 20px;
-    }
-
-    #signup-container {
-      background-color: #fff;
-      border-radius: 18px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-      width: 90%;
-      max-width: 400px;
-    }
-    
-    label{
-      text-align: left;
-    }
-
-    #myForm {
-      padding: 20px;
-      box-sizing: border-box;
-    }
-
-    h2 {
-      text-align: center;
-      color: #333;
-    }
-
-    input {
-      width: 100%;
-      padding: 20px;
-      margin: 8px 0;
-      box-sizing: border-box;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-    }
-
-    button {
-      width: 100%;
-      padding: 20px;
-      background-color: black;
-      color: white;
-      border: none;
-      border-radius: 15px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #45a049;
-    }
-    .conta{
-        width: 100%;
-        background-color: black;
-        text-align: left;
-        color: white;
-        border-radius: 30px;
-    }
-    .bo{
-        padding-left: 10px;
-        padding-right: 5px;
-    }
-    .con{
-        width: 100%;
-        background-color: transparent;
-        text-align: left;
-        border-radius: 30px;
-    }
-    .bon{
-        padding-left: 10px;
-        padding-right: 5px;
-    }
-    footer {
-  /* position: fixed; */
-  bottom: 0;
-  width: 100%;
-  background-color: white;
-  color: black;
-  text-align: center;
-  padding: 10px;
-
-}
-}
-  </style>
+  <link rel="stylesheet" href="next.css">k
 </head>
 
 <body>
   <center>
     <div id="signup-container">
+      <h2>DreamSkill Catcher</h2>
       <form id="myForm" >
-        <h2>GrowthSchool</h2>
+       
         <div class="conta">
+          
           <br>
                   <div class="bo"><p >ChatGPT 101</p></div>
                   <div class="bo"><p>₹299 <del>₹999</del></p></div>
                   <div class="bo"><p style="font-size: small;">*GST not included</p></div>
           <br>
               </div><br><br>
-              <div class="con">
+              <div class="cone">
+                <div class="con">
                   <label class="bon">Full Name <font style="color: red;">*</font></label>
                   <input type="text" id="name" placeholder="Username" required>
               </div><br>
@@ -218,6 +42,7 @@
         
         <button type="submit">Next</button>
         
+              </div>
       </form>
     </div>
   </center>
@@ -226,7 +51,7 @@
 <br><br><br><br><br><br><br><br>
 <center>
   <footer style="bottom: auto;">
-    &copy; 2023 GrowthSchool. All rights reserved.
+    &copy; 2023 DreamSkill Catcher. All rights reserved.
   </footer>
   
 </center>

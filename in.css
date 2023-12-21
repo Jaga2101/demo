@@ -1,0 +1,326 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: white;
+    }
+
+   #video {
+      width: 60%;
+    }
+
+
+    #register-button {
+      position: fixed;
+      bottom: 10px;
+      right: 20px;
+      width: 40%; 
+      padding: 24px 30px;
+      /* background-color: #29cfcf; */
+      background-color: #29cfcf;
+    
+      color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #timer-container {
+      position: fixed;
+      bottom: 10px;
+      padding: 10px;
+       width: 70%;
+      background-color: #333;
+      color: white;
+      border-radius: 5px;
+      left: 10px;
+    }
+
+    .tit {
+      color: #29cfcf;
+    }
+
+    .ton {
+      justify-content: space-evenly;
+    }
+
+    .col {
+      padding: 20px 45px;
+      background-color: #29cfcf;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .reg {
+      padding: 15px 20px;
+      background-color: #29cfcf;
+      color: black;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 60%;
+    }
+
+    .li {
+      padding: 20px 0px;
+    }
+
+    .ico {
+      background-color: transparent;
+      border: none;
+      font-size: 20px;
+      color: white;
+    }
+    .lin {
+      background-color: transparent;
+      border-color: white;
+      font-size: 20px;
+      color: white;
+    }
+    .contae{
+        width: 60%;
+        background-color: black;
+        text-align: left;
+        color: white;
+        border-color: white;
+        border: white;
+        border-style: outset;
+        border-radius: 30px;
+        padding-left: 10px;
+    }
+    .conta{
+        width: 70%;
+        background-color: black;
+        text-align: left;
+        color: white;
+        border-color: white;
+        border: white;
+        border-style: outset;
+        border-radius: 30px;
+        padding-left: 10px;
+    }
+    .bo{
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    .art{
+     margin-left: 20px;
+     margin-right: 20px;
+    }
+    .art img {     
+    position: relative;
+    display: inline-flex;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+.intro{
+     margin-left: 20px;
+     margin-right: 20px;
+    }
+    .intro img {     
+    position: relative;
+    display: inline-flex;
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+}
+.sale{
+     margin-left: 20px;
+     margin-right: 20px;
+    }
+    .sale img {     
+    position: relative;
+    display: inline-flex;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+.offer{
+     margin-left: 20px;
+     margin-right: 20px;
+    }
+    .offer img {     
+    position: relative;
+    display: inline-flex;
+    width: 350px;
+    height: 150px;
+    padding: 40px;
+}
+.cer{
+    margin-left: 10px;
+     margin-right: 10px;
+}
+.cer img {     
+    position: relative;
+    display: inline-flex;
+    width: 550px;
+    height: 350px;
+    /* padding: 40px; */
+}
+    /* Mobile */
+@media screen and (max-width:485px) {
+  body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: white;
+    }
+
+   #video {
+      width: 90%;
+    }
+    #register-button {
+      position: fixed;
+      bottom: 10px;
+      right: 20px;
+      width: 40%; 
+      padding: 24px 30px;
+      background-color: #29cfcf;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #timer-container {
+      position: fixed;
+      bottom: 10px;
+      padding: 8px;
+       width: 50%;
+      background-color: #333;
+      color: white;
+      border-radius: 5px;
+      left: 10px;
+    }
+
+    .tit {
+      color: #29cfcf;
+    }
+
+    .ton {
+      justify-content: space-evenly;
+    }
+
+    .col {
+      padding: 20px 20px;
+      background-color: #29cfcf;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .reg {
+      padding: 15px 20px;
+      background-color: #29cfcf;
+      color: black;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 80%;
+    }
+
+    .li {
+      padding: 20px 0px;
+    }
+
+    .ico {
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      color: white;
+    }
+
+    .lin {
+      background-color: transparent;
+      border-color: white;
+      font-size: 17px;
+      color: white;
+    }
+    .contae{
+        width: 85%;
+        background-color: black;
+        text-align: left;
+        color: white;
+        border-color: white;
+        border: white;
+        border-style: outset;
+        border-radius: 30px;
+        padding-left: 10px;
+    }
+    .conta{
+        width: 85%;
+        background-color: black;
+        text-align: left;
+        color: white;
+        border-color: white;
+        border: white;
+        border-style: outset;
+        border-radius: 30px;
+        padding-left: 10px;
+    }
+    .bo{
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    .art{
+        margin-left: 10px;
+        margin-right: 10px;
+       }
+       .art img {     
+       /* position: relative; */
+       /* display: inline-flex; */
+       width: 300px;
+       height: 300px;
+       /* padding: 20px; */
+   }
+   .intro{
+        margin-left: 10px;
+        margin-right: 10px;
+       }
+       .intro img {     
+       /* position: relative; */
+       /* display: inline-flex; */
+       width: 300px;
+       height: 300px;
+       /* padding: 30px; */
+   }
+   .sale{
+        margin-left: 10px;
+        margin-right: 10px;
+       }
+       .sale img {     
+       /* position: relative; */
+       /* display: inline-flex; */
+       width: 300px;
+       height: 300px;
+       /* padding: 30px; */
+   }
+   .offer{
+        margin-left: 10px;
+        margin-right: 10px;
+       }
+       .offer img {     
+       /* position: relative; */
+       /* display: inline-flex; */
+       width: 300px;
+       height: 150px;
+       /* padding: 40px; */
+   }
+   .cer{
+    margin-left: 5px;
+     margin-right: 5px;
+}
+.cer img {     
+    /* position: relative; */
+    /* display: inline-flex; */
+    width: 350px;
+    height: 220px;
+    /* padding: 40px; */
+}
+   
+}
