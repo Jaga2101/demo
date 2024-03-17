@@ -31,7 +31,8 @@ body {
 
   h2 {
     text-align: center;
-    color: #333;
+    /* color: #333; */
+    color: #6c63ff;
   }
 
   h3{
@@ -47,17 +48,23 @@ body {
     border-radius: 10px;
   }
 
-  button {
+  
+  .btn {
     width: 100%;
-    padding: 15px;
-    background-color: black;
+    /* padding: 15px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #6c63ff;
     color: white;
     border: none;
+    font-size: 18px;
     border-radius: 15px;
     cursor: pointer;
   }
 
-  button:hover {
+  .btn:hover {
     background-color: #29cfcf;
   }
   .conta{
@@ -95,11 +102,12 @@ footer {
 bottom: 0;
 width: 80%;
 bottom: 20px;
-background-color: white;
-color: black;
+background-color: black;
+color: white;
 text-align: center;
 padding: 10px;
 }
+
 #user-details {
     background-color: #fff;
     border-radius: 8px;
@@ -124,8 +132,8 @@ color: white;
     /* display: flex; */
     align-items: center;
     justify-content: center;
-    height: 80%;
-    margin-top: 20px;
+    height: 70%;
+    margin-top: 35px;
   }
 
   #signup-container {
@@ -133,9 +141,9 @@ color: white;
     border-radius: 18px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 100%;
+    width: 85%;
     max-width: 400px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
   
   label{
@@ -152,7 +160,8 @@ color: white;
 
   h2 {
     text-align: center;
-    color: #333;
+    /* color: #333; */
+    color: #6c63ff;
   }
 
   h3{
@@ -168,17 +177,22 @@ color: white;
     border-radius: 10px;
   }
 
-  button {
+  .btn {
     width: 100%;
-    padding: 20px;
-    background-color: black;
+    /* padding: 20px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
+    background-color: #6c63ff;
     color: white;
     border: none;
     border-radius: 15px;
     cursor: pointer;
+    font-size: 18px;
   }
 
-  button:hover {
+  .btn:hover {
     background-color: #29cfcf;
   }
   .conta{
@@ -216,8 +230,8 @@ color: white;
 bottom: 0;
 width: 100%;
 bottom: 20px;
-background-color: white;
-color: black;
+background-color: black;
+color: white;
 text-align: center;
 padding: 10px;
 }
